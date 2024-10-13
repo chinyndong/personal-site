@@ -1,0 +1,82 @@
+.profil{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+        position: absolute;
+        right: 0;
+        top: 80px;
+        padding: 10px 5px;
+        display: none;
+        border-radius: 2px;
+}
+
+.profil a{
+    color: #fff;
+}
+
+.profil a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profil1{
+    display: none;
+}
+main{
+    padding: 70px 0 70px 0;
+}
+form {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    row-gap: 5px;
+  }
+
+  .jaune{
+    color: #f2cd5d;
+  }
+
+  .jaune:hover{
+    color: rgba(242, 205, 93, 0.8);
+  }
+  
+  form a {
+    text-decoration: none;
+  }
+  
+  form .boutons{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+  
+  form .bouton{
+    background-color: lightgreen;
+    padding: 2px 7px;
+    background-color: #F4F3EE;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  form .bouton:hover{
+    opacity: 0.8;
+  }
+  
+  .btn1, .btn2 div{
+    border: none;
+    outline: none;
+  }
+  
+  form .error-message {
+    color: #FFFBFC;
+    background-color: #FF0000;
+    padding: 1px;
+    border-radius: 3px;
+    margin-top: 2px;
+    text-transform: lowercase;
+    border: none;
+  }
+  

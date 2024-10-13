@@ -1,0 +1,90 @@
+main {
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    padding: 20px 30px 15px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    border-radius: 5px;
+    color: #fff;
+    max-width: 100%;
+}
+
+input, select {
+    display: block;
+    width: 400px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+div .btn {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+}
+
+div .btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.profil{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    position: absolute;
+    right: 0;
+    top: 80px;
+    padding: 10px 5px;
+    display: none;
+}
+
+.profil a{
+    color: #fff;
+}
+
+.profil a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profil1{
+    display: none;
+}
+
+/* Media queries pour rendre le formulaire responsive */
+@media (max-width: 768px) {
+    input, select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 20px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input, select {
+        width: 100%;
+    }
+
+    div .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
